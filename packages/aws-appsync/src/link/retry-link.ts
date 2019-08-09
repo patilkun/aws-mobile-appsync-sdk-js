@@ -4,7 +4,7 @@
  */
 import { ApolloLink } from "apollo-link";
 import { RetryLink } from "apollo-link-retry";
-import { OfflineAction } from "@redux-offline/redux-offline/lib/types";
+import { OfflineAction } from "@patilkun/redux-offline/lib/types";
 import { graphQLResultHasError } from "apollo-utilities";
 
 const BASE_TIME_MS = 100;

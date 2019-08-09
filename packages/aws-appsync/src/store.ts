@@ -4,9 +4,9 @@
  */
 import { rootLogger } from "./utils";
 import { applyMiddleware, createStore, compose, combineReducers, Store, Reducer, AnyAction, ReducersMapObject } from 'redux';
-import { offline } from '@redux-offline/redux-offline';
-import defaultOfflineConfig from '@redux-offline/redux-offline/lib/defaults';
-import { PERSIST_REHYDRATE } from "@redux-offline/redux-offline/lib/constants";
+import { offline } from '@patilkun/redux-offline';
+import defaultOfflineConfig from '@patilkun/redux-offline/lib/defaults';
+import { PERSIST_REHYDRATE } from "@patilkun/redux-offline/lib/constants";
 import { KEY_PREFIX as REDUX_PERSIST_KEY_PREFIX } from "redux-persist/constants";
 import thunk from 'redux-thunk';
 
@@ -15,7 +15,7 @@ import { reducer as cacheReducer, NORMALIZED_CACHE_KEY, METADATA_KEY } from './c
 import { getEffectDelay } from './link/retry-link';
 import { offlineEffectConfig as mutationsConfig } from './link/offline-link';
 import { NormalizedCacheObject, IdGetter } from 'apollo-cache-inmemory';
-import { OfflineAction, NetInfo, NetworkCallback } from '@redux-offline/redux-offline/lib/types';
+import { OfflineAction, NetInfo, NetworkCallback } from '@patilkun/redux-offline/lib/types';
 import { offlineEffectConfig as deltaSyncConfig } from "./deltaSync";
 import { Observable } from 'apollo-link';
 

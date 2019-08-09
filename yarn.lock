@@ -282,9 +282,9 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
-"@redux-offline/redux-offline@2.2.1":
+"@patilkun/redux-offline@2.2.1":
   version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@redux-offline/redux-offline/-/redux-offline-2.2.1.tgz#4e7622da0b37bb90b5c713b1db50863f81b1038b"
+  resolved "https://registry.yarnpkg.com/@patilkun/redux-offline/-/redux-offline-2.2.1.tgz#4e7622da0b37bb90b5c713b1db50863f81b1038b"
   dependencies:
     babel-runtime "^6.26.0"
     redux-persist "^4.5.0"

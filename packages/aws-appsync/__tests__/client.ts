@@ -11,7 +11,7 @@ import { AWSAppsyncGraphQLError } from "../src/types";
 import { DEFAULT_KEY_PREFIX } from "../src/store";
 
 let setNetworkOnlineStatus: (online: boolean) => void;
-jest.mock("@redux-offline/redux-offline/lib/defaults/detectNetwork", () => (callback) => {
+jest.mock("@patilkun/redux-offline/lib/defaults/detectNetwork", () => (callback) => {
     setNetworkOnlineStatus = online => {
         setTimeout(() => callback({ online }), 0);
     };

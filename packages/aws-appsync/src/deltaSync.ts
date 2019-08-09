@@ -2,7 +2,7 @@
  * Copyright 2017-2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
  * SPDX-License-Identifier: Apache-2.0
  */
-import { OfflineAction } from "@redux-offline/redux-offline/lib/types";
+import { OfflineAction } from "@patilkun/redux-offline/lib/types";
 import { NormalizedCacheObject, defaultNormalizedCacheFactory } from "apollo-cache-inmemory";
 import { Store, AnyAction } from "redux";
 import { OfflineCache, AppSyncMetadataState, METADATA_KEY } from "./cache/offline-cache";
